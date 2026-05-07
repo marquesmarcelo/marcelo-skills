@@ -81,7 +81,7 @@ A ideia é permitir que qualquer pessoa possa:
 
 ---
 
-# 🚀 Como Utilizar
+# 🚀 Como Utilizar no Antigravity [https://antigravity.google/]
 
 Clone o projeto:
 
@@ -92,14 +92,54 @@ git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
 Copie a Skill desejada para:
 
 ```text
-.agent/skills/
+meu-projeto/
+ ├── .agent/
+ │    └── skills/
+ │         └── questonildo/
+ │              └── SKILL.md
+ └── src/
 ```
 
-ou para o diretório global do Antigravity:
+ou para o diretório global do Antigravity na sua máquina:
 
 ```text
 ~/.gemini/antigravity/skills/
 ```
+
+# 🚀 Como Utilizar no Claude Code [https://claude.ai/new]
+
+Clone o projeto:
+
+```bash
+git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
+```
+
+Você cria uma pasta:
+
+```bash
+.claude/skills/
+```
+
+Exemplo:
+
+```text
+meu-projeto/
+ ├── .claude/
+ │    └── skills/
+ │         └── questonildo/
+ │              └── SKILL.md
+ └── src/
+```
+
+Depois, no prompt do Claude Code, você pede:
+
+Use a skill "questonildo" localizada em .claude/skills/questonildo/SKILL.md
+
+ou:
+
+Leia o arquivo .claude/skills/questonildo/SKILL.md e siga as instruções dele.
+
+O Claude Code consegue ler os arquivos do workspace automaticamente.
 
 ---
 
