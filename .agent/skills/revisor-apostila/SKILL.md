@@ -1,13 +1,13 @@
 ---
 name: auditoria-apostila
 description: >
-  Realiza auditoria pedagógica, técnica e editorial completa de apostilas e materiais educacionais em PDF.
+  Realiza auditoria pedagógica, técnica e editorial completa de apostilas e materiais educacionais em documentos.
   Use esta skill SEMPRE que o usuário solicitar: análise de apostila, auditoria de material didático,
-  revisão de conteúdo educacional, verificação de progressão pedagógica, análise de PDF educacional,
-  revisão de curso, avaliação de material de ensino, checar qualidade de apostila, detectar erros em PDF
+  revisão de conteúdo educacional, verificação de progressão pedagógica, análise de documento educacional,
+  revisão de curso, avaliação de material de ensino, checar qualidade de apostila, detectar erros em documentos
   de aula, analisar coerência de conteúdo, verificar objetivos de aprendizagem, auditar trilha de
   aprendizagem, ou qualquer variação dessas intenções — mesmo que o usuário não use o termo "auditoria".
-  Se o usuário carregar um ou mais PDFs com conteúdo educacional e pedir análise, revisão ou avaliação,
+  Se o usuário carregar um ou mais documentos com conteúdo educacional e pedir análise, revisão ou avaliação,
   ativar esta skill imediatamente.
 ---
 
@@ -168,9 +168,9 @@ Antes de emitir qualquer julgamento, ele lê o material completo e mapeia sua es
 
 Antes de iniciar qualquer análise:
 
-1. **Identificar todos os arquivos recebidos** — listar nome, número de páginas estimado e tema aparente de cada PDF.
+1. **Identificar todos os arquivos recebidos** — listar nome, número de páginas estimado e tema aparente de cada documento.
 2. **Confirmar o escopo** — perguntar ao usuário se deseja auditoria completa (todas as 11 dimensões) ou apenas dimensões específicas. Se o usuário não responder, executar auditoria completa.
-3. **Alertar sobre limitações de contexto** — se o volume de PDFs for muito extenso, informar ao usuário antes de começar e propor uma estratégia de análise em lotes.
+3. **Alertar sobre limitações de contexto** — se o volume de documentos for muito extenso, informar ao usuário antes de começar e propor uma estratégia de análise em lotes.
 4. **Registrar a estrutura identificada:**
 
 ```
@@ -242,7 +242,7 @@ Auditar cada dimensão conforme descrito. Para cada problema encontrado, registr
 - Verificar referências a ferramentas descontinuadas ou substituídas.
 
 ### D7 — Integridade de Links e Referências
-- Listar todas as URLs encontradas nos PDFs.
+- Listar todas as URLs encontradas nos documentos.
 - Classificar cada uma como: Provável ativa / Suspeita de inatividade / Domínio instável / Muito antiga.
 - Se houver acesso à rede via ferramenta de busca, tentar verificar as principais URLs.
 - Sinalizar links para recursos que exigem assinatura sem aviso prévio ao estudante.
@@ -267,7 +267,7 @@ Auditar cada dimensão conforme descrito. Para cada problema encontrado, registr
 
 ### D11 — Consistência de Estilo e Voz (Brand Voice)
 - Verificar se o tom de voz é consistente entre todos os arquivos.
-- Identificar mudanças bruscas de registro: muito informal em um PDF, excessivamente acadêmico em outro.
+- Identificar mudanças bruscas de registro: muito informal em um documento, excessivamente acadêmico em outro.
 - Verificar consistência de terminologia (mesmo conceito com nomes diferentes em arquivos diferentes).
 - Verificar consistência de formatação e estrutura visual (títulos, hierarquia, padrão de exemplos).
 
